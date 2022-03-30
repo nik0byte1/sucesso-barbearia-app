@@ -1,10 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart';
 import 'package:sucesso_app/components/rounded_button.dart';
-
 import 'package:sucesso_app/components/text_field_container.dart';
-import 'package:sucesso_app/constants.dart';
-import 'package:sucesso_app/pages/home_page.dart';
+import 'package:sucesso_app/components/constants.dart';
 import 'package:sucesso_app/pages/register_page.dart';
 
 class LoginPage extends StatefulWidget {
@@ -124,21 +121,6 @@ class _LoginPageState extends State<LoginPage> {
         'Login',
         style: TextStyle(color: kThirdColor, fontWeight: FontWeight.bold),
       ),
-      iconTheme: const IconThemeData(color: kThirdColor),
-      leading: Padding(
-        padding: const EdgeInsets.all(10.0),
-        child: IconButton(
-          icon: const Icon(Icons.arrow_back_rounded),
-          iconSize: 24,
-          onPressed: () {
-            Navigator.push(
-              context,
-              MaterialPageRoute(builder: (context) => const HomePage()),
-            );
-          },
-        ),
-      ),
-      systemOverlayStyle: SystemUiOverlayStyle.dark,
     );
   }
 }

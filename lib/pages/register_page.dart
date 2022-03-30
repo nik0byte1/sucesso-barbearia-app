@@ -1,8 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:sucesso_app/constants.dart';
-import 'package:flutter/services.dart';
-import 'package:sucesso_app/pages/home_page.dart';
-
+import 'package:sucesso_app/components/constants.dart';
 import '../components/rounded_button.dart';
 import '../components/text_field_container.dart';
 import 'login_page.dart';
@@ -139,21 +136,6 @@ class _RegisterPageState extends State<RegisterPage> {
         'Register',
         style: TextStyle(color: kThirdColor, fontWeight: FontWeight.bold),
       ),
-      iconTheme: const IconThemeData(color: kThirdColor),
-      leading: Padding(
-        padding: const EdgeInsets.all(10.0),
-        child: IconButton(
-          icon: const Icon(Icons.arrow_back_rounded),
-          iconSize: 24,
-          onPressed: () {
-            Navigator.push(
-              context,
-              MaterialPageRoute(builder: (context) => const HomePage()),
-            );
-          },
-        ),
-      ),
-      systemOverlayStyle: SystemUiOverlayStyle.dark,
     );
   }
 }

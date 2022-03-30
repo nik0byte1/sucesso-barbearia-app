@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'package:sucesso_app/constants.dart';
+import 'package:sucesso_app/components/constants.dart';
 
 class TextFieldContainer extends StatelessWidget {
   final Widget child;
