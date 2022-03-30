@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "952723882718",
+    "project_id": "sucessobarbearia-fa994",
+    "storage_bucket": "sucessobarbearia-fa994.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:952723882718:android:2ea70df6bb2a55f5cab84f",
+        "android_client_info": {
+          "package_name": "com.example.sucesso_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "952723882718-q6dr94n3vhokutqp29cqv7cfeae2u24f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB2YrLn-ETlQW9n4uaFRq_JPbfsAoPjhdQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "952723882718-q6dr94n3vhokutqp29cqv7cfeae2u24f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

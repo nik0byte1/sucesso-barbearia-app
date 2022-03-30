@@ -1,0 +1,21 @@
+SUCESSO APP:
+
+21/03/2022 - 28/03/2022
+
+    - FEATURES:   
+        - Setting up the HomePage().
+        - Coding LoginPage() & RegisterPage() UI/UX.        
+
+    - TESTING:
+        - Setting up an Android Emulator.                  
+
+28/03/2022 - 04/04/2022 
+
+    - FEATURES:
+        - Finishing UI/UX in RegisterPage().
+        - Login & Register Integration with backend.   
+
+    - TESTING:          
+        - Setup MacOS VM to run Xcode (iOS Emulator).
+        - Setup Code Highlighting in VSCode.  
+    
